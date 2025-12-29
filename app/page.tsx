@@ -1,9 +1,5 @@
-import { articleContent } from "@/artigo/article";
+"use client";
 
 export default function Home() {
-  return (
-    <main>
-      <div dangerouslySetInnerHTML={{ __html: articleContent }} />
-    </main>
-  );
+  return <main>hello world</main>;
 }
