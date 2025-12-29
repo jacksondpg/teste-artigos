@@ -1,6 +1,6 @@
 "use client";
 
-import { articleContent } from "@/artigo/article";
+import { articleContent } from "./article";
 
 export default function Home() {
   return (
